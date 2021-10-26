@@ -9,6 +9,21 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.up a {
+  display: grid;
+  place-content: center;
+  font-size: 1.5rem;
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  top: 90vh;
+  left: 95vw;
+  width: 32px;
+  height: 32px;
+  background: #5e6e81;
+  border-radius: 100%;
+}
+
 .menu {
   display: flex;
   justify-content: space-around;
@@ -79,6 +94,9 @@ body {
   color: #c2dbf8;
   font-size: larger;
 }
+.services h2 {
+  margin: 1rem;
+}
 
 .services-items {
   display: flex;
@@ -104,6 +122,14 @@ body {
 }
 .service a:hover {
   filter: brightness(0.8);
+}
+
+.planos {
+  color: #172c44;
+  font-size: larger;
+}
+.planos h2 {
+  margin: 1rem;
 }
 
 .planos-previstos {
