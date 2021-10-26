@@ -161,12 +161,22 @@ body {
 }
 .plano ul {
   list-style: none;
-  margin: 1rem auto;
+  margin: 1rem 2rem;
 }
 .plano ul li {
+  position: relative;
   font-size: 1.3rem;
   margin-left: 0.5rem;
   line-height: 2.3rem;
+}
+.plano ul li::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0.8rem;
+  left: -1rem;
+  background: #172c44;
 }
 
 .plano a {
